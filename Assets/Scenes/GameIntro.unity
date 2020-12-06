@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6ddd8ca8c3d5a45ac4692586c5305f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 0}
+  AudioSource: {fileID: 2028826227}
 --- !u!4 &408260073
 Transform:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.109191895, y: -2.4020042}
+  m_AnchoredPosition: {x: 0.109191895, y: -2.402008}
   m_SizeDelta: {x: -0.21838379, y: -4.8039703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &817031325
@@ -1550,8 +1550,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0011902, y: 0.00013733}
-  m_SizeDelta: {x: 750.43274, y: 205.35129}
+  m_AnchoredPosition: {x: -0.8, y: 33.6}
+  m_SizeDelta: {x: 922.0211, y: 277.1416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080699589
 MonoBehaviour:
@@ -1573,9 +1573,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to Talk''n''Sketch!
-
-    Here are the basics:'
+  m_text: "Welcome to Talk'n'Sketch! \n\nThere are 3 phases to this game, each drawing
+    phase will last a total of 90 seconds:\n\n Phase 1: the Coach will be shown a
+    drawing, then describe that drawing with a limited number of typed words to the
+    Artist. The Artist will utilize various tools to recreate the described drawing.
+    \n\nPhase 2: the Coach will see the Artist's drawing next to the original drawing.
+    With a limited number of typed words, the Coach will suggest improvements. Then,
+    the Artist will see these hints and make adjustments to their drawing. \n\nPhase
+    3: the Coach will see the Artist's drawing and the original drawing side by side
+    and use vocal communication to instruct the player to improve the drawings. The
+    artist will hear these suggestions and make improvements to the drawing. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1602,14 +1609,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3154,11 +3161,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 34394f556e8b02e4185d357ff6ab6f26, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
